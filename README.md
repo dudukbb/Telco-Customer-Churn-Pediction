@@ -1,13 +1,13 @@
-# Telco Customer Churn Prediction & Feature Engineering Pipeline
+# 📉 Telco Customer Churn Prediction 
 
 An end-to-end Machine Learning project designed to predict customer churn for a telecommunications company, featuring comprehensive exploratory data analysis (EDA), advanced feature engineering, hyperparameter optimization, and automated output generation.
 
 ---
 
-## Project Overview & Scope
+## 🔗 Project Overview & Scope
 This project covers the entire machine learning lifecycle: from raw data inspection and exploratory data analysis to feature engineering, baseline benchmarking, hyperparameter tuning, and automated tracking.
 
-### Key Pipeline Steps:
+### 🔗 Key Pipeline Steps:
 1. **Exploratory Data Analysis (EDA):** Inspected data structure, analyzed categorical and numerical variables, and visualized relationships against the target variable (`Churn`).
 2. **Missing & Outlier Value Analysis:** Handled missing values with appropriate imputation and suppressed outliers based on defined statistical thresholds.
 3. **Feature Engineering:** Created domain-specific features to capture customer behavior patterns and boost predictive power.
@@ -16,7 +16,7 @@ This project covers the entire machine learning lifecycle: from raw data inspect
 
 ---
 
-##  Engineered Features Created
+## 🔗 Engineered Features Created
 Domain-specific features engineered to capture customer loyalty and behavioral trends:
 * **`NEW_TENURE_YEAR`**: Grouping customer tenure into yearly bins (0-1 year up to 5-6 years).
 * **`NEW_Engaged`**: Binary flag indicating whether the customer has a long-term contract (One year or Two year).
@@ -29,7 +29,7 @@ Domain-specific features engineered to capture customer loyalty and behavioral t
 
 ---
 
-##  Tech Stack & Libraries
+## 🔗 Tech Stack & Libraries
 * **Python** 
 * **Data Analysis:** `Pandas`, `NumPy`
 * **Visualization:** `Matplotlib`, `Seaborn`
@@ -58,10 +58,11 @@ Telco_Customer_Churn_Prediction/
 │   │   ├── XGBoost_importance.png
 │   │   ├── LightGBM_importance.png
 │   │   └── CatBoost_importance.png
-│   └── metrics/                               # Performance summary tables (CSV and PNG)
-│       ├── base_models_summary.csv / .png
+│   └── metrics/                               # Performance summary tables
+│       ├── base_models_summary.png
 │       └── engineered_models_summary.png
 │
-├── Telco-Customer-Churn.csv                   # Dataset
+├── Telco-Customer-Churn-FromDB.csv            # Dataset
 ├── Telco_Churn.py                             # Main pipeline Python script
+├── export_from_db.py                          # Database export script (fetches data directly from DB)
 └── README.md                                  # Project documentation
