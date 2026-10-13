@@ -11,13 +11,13 @@ This project analyzes demographic info, account details, and service subscriptio
 ---
 
 ## 🛠️ Tech Stack & Environment
-* **Language:** Python 3.10+
+* **Language:** Python 3.14.4
 * **Data Manipulation & Analysis:** Pandas, NumPy
 * **Data Visualization:** Matplotlib, Seaborn, Plotly
 * **Machine Learning:** Scikit-Learn, XGBoost, LightGBM, CatBoost
 * **Environment Management:** Pip, venv
 
-### Installed Package Versions (`pip list`)
+### Installed Package Versions
 catboost          1.2.10
 cloudpickle       3.1.2
 contourpy         1.4.0
