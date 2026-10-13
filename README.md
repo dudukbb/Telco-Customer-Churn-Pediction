@@ -46,7 +46,7 @@ Here are samples of how I analyzed the dataset, featuring general distributions,
 
 ---
 
-### 2. Model Performance Summary Tables
+### 2. Model Performance Summary Tables & Comparison
 Below are the evaluation metrics tables comparing models before and after feature engineering and hyperparameter optimization:
 
 * **Base Models Performance:**
@@ -54,6 +54,12 @@ Below are the evaluation metrics tables comparing models before and after featur
 
 * **Engineered Models Performance:**
   ![Engineered Models Summary](outputs/metrics/engineered_models_summary.png)
+
+#### 🏆 My Model Selection & Results Summary:
+* **Before Feature Engineering (Base Models):** 
+  * *Top Performing Model:* **CatBoost** / **LightGBM** achieved the highest baseline scores, with an **AUC** around `0.84` and an **Accuracy** of approximately `~80%`.
+* **After Feature Engineering & Hyperparameter Tuning:**
+  * By incorporating my newly engineered domain features (`NEW_TENURE_YEAR`, `NEW_Engaged`, `NEW_TotalServices`, etc.) and optimizing parameters via `GridSearchCV`, tree-based models (`CatBoost` and `LightGBM`) maintained superior predictive power, yielding stable generalization performance with an increased **ROC-AUC** and balanced **F1-Scores**.
 
 ---
 
