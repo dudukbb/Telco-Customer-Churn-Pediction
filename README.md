@@ -30,15 +30,19 @@ To capture customer loyalty and behavioral trends, I derived the following featu
 
 ## 📊 Visual Outputs & Results
 
-### 1. Exploratory Data Analysis & Correlation
-Here are some samples of how I analyzed numerical and categorical distributions, target interactions, and the correlation matrix:
+### 1. Exploratory Data Analysis & Target Interactions
+Here are samples of how I analyzed the dataset, featuring general distributions, the correlation matrix, and the impacts of numerical and categorical variables on customer churn (`Churn`):
 
 * **Correlation Matrix:**
   ![Correlation Matrix](outputs/eda/numerical_plots/correlation_matrix.png)
 
-* **Categorical & Numerical Analysis Examples:**
+* **Numerical & Categorical Distributions:**
   * ![Churn Count](outputs/eda/categorical_plots/Churn_countplot.png)
   * ![Contract Count](outputs/eda/categorical_plots/Contract_countplot.png)
+
+* **Target Analysis (Impact of Numerical & Categorical Features on Churn):**
+  * *Numerical Target Analysis (Boxplots):* Visualized how numerical metrics (such as tenure or charges) differ between churned and retained customers under `outputs/eda/target_analysis_numeric_plots/`.
+  * *Categorical Target Analysis (Barplots):* Analyzed churn rates across different categories (such as internet service types, payment methods, and contracts) under `outputs/eda/target_analysis_categoric_plots/`.
 
 ---
 
@@ -67,6 +71,8 @@ Here is how my optimized models ranked the most important features driving custo
 
 * **CatBoost Feature Importance:**
   ![CatBoost Importance](outputs/importances/CatBoost_importance.png)
+
+---
 
 ## 🔗 Tech Stack & Libraries
 * **Python** 
