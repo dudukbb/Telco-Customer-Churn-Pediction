@@ -57,9 +57,11 @@ Below are the evaluation metrics tables comparing models before and after featur
 
 #### 🏆 My Model Selection & Results Summary:
 * **Before Feature Engineering (Base Models):** 
-  * *Top Performing Model:* **CatBoost** / **LightGBM** achieved the highest baseline scores, with an **AUC** around `0.84` and an **Accuracy** of approximately `~80%`.
+  * *Top Performing Models:* **LR**, **CatBoost**, and **LightGBM** achieved the highest baseline scores[cite: 1]. **LR** reached an **Accuracy** of **0.8032** and an **AUC** of **0.8432**, while **CatBoost** and **LightGBM** closely followed with **Accuracy** scores of **0.7984** and **0.7967**, and **AUC** scores of **0.8420** and **0.8361** respectively[cite: 1].
 * **After Feature Engineering & Hyperparameter Tuning:**
-  * By incorporating my newly engineered domain features (`NEW_TENURE_YEAR`, `NEW_Engaged`, `NEW_TotalServices`, etc.) and optimizing parameters via `GridSearchCV`, tree-based models (`CatBoost` and `LightGBM`) maintained superior predictive power, yielding stable generalization performance with an increased **ROC-AUC** and balanced **F1-Scores**.
+  * By incorporating my newly engineered domain features (`NEW_TENURE_YEAR`, `NEW_Engaged`, `NEW_TotalServices`, etc.) and optimizing parameters via `GridSearchCV`, **LR** maintained the highest **Accuracy** at **0.8043** with an **AUC** of **0.8451**, whereas tree-based models like **CatBoost** (**Accuracy: 0.7961**, **AUC: 0.8417**) and **LightGBM** (**Accuracy: 0.7974**, **AUC: 0.8353**) yielded robust generalization performance with balanced F1-Scores[cite: 2].
+* **Final Model Selection:**
+  * Although **Logistic Regression (LR)** achieved the highest raw accuracy, I selected **CatBoost** and **LightGBM** as my primary production models. Tree-based gradient boosting models handle complex non-linear feature interactions, outlier robustness, and feature importance tracking far better, making them the superior choice for real-world customer churn prediction and business decision-making.
 
 ---
 
