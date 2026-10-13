@@ -1,5 +1,34 @@
 # 📉 Telco Customer Churn Prediction 
 
+This project is an end-to-end Machine Learning web application designed to predict and analyze customer churn in the telecommunications industry. The pipeline covers exploratory data analysis (EDA), feature engineering, hyperparameter optimization, model evaluation, and an interactive web interface.
+
+## 🌐 Live Demo
+Test the application live in your browser: **[Live Streamlit App](https://telco-customer-churn-pediction-iu2jtdomamlzq8ooyrmrgu.streamlit.app/)**
+
+---
+
+## 🛠️ Running Locally
+
+To run the project on your local machine, follow these steps:
+
+# 1. Clone the repository:
+   ```bash
+   git clone [https://github.com/dudukbb/Telco-Customer-Churn-Pediction.git](https://github.com/dudukbb/Telco-Customer-Churn-Pediction.git)
+   cd Telco-Customer-Churn-Pediction
+
+---
+# 2. Install the required dependencies:
+
+  ```bash
+  pip install -r requirements.txt
+  Launch the Streamlit application:
+
+# 3. Launch the Streamlit application:
+```bash
+streamlit run app.py
+
+
+
 End-to-end churn prediction pipeline featuring EDA, feature engineering, and hyperparameter tuning with top ML models."
 
 ---
