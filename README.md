@@ -28,6 +28,46 @@ To capture customer loyalty and behavioral trends, I derived the following featu
 
 ---
 
+## 📊 Visual Outputs & Results
+
+### 1. Exploratory Data Analysis & Correlation
+Here are some samples of how I analyzed numerical and categorical distributions, target interactions, and the correlation matrix:
+
+* **Correlation Matrix:**
+  ![Correlation Matrix](outputs/eda/numerical_plots/correlation_matrix.png)
+
+* **Categorical & Numerical Analysis Examples:**
+  * ![Churn Count](outputs/eda/categorical_plots/Churn_countplot.png)
+  * ![Contract Count](outputs/eda/categorical_plots/Contract_countplot.png)
+
+---
+
+### 2. Model Performance Summary Tables
+Below are the evaluation metrics tables comparing models before and after feature engineering and hyperparameter optimization:
+
+* **Base Models Performance:**
+  ![Base Models Summary](outputs/metrics/base_models_summary.png)
+
+* **Engineered Models Performance:**
+  ![Engineered Models Summary](outputs/metrics/engineered_models_summary.png)
+
+---
+
+### 3. Feature Importance Visualizations
+Here is how my optimized models ranked the most important features driving customer churn:
+
+* **Random Forest Feature Importance:**
+  ![RandomForest Importance](outputs/importances/RandomForest_importance.png)
+
+* **XGBoost Feature Importance:**
+  ![XGBoost Importance](outputs/importances/XGBoost_importance.png)
+
+* **LightGBM Feature Importance:**
+  ![LightGBM Importance](outputs/importances/LightGBM_importance.png)
+
+* **CatBoost Feature Importance:**
+  ![CatBoost Importance](outputs/importances/CatBoost_importance.png)
+
 ## 🔗 Tech Stack & Libraries
 * **Python** 
 * **Data Analysis:** `Pandas`, `NumPy`
