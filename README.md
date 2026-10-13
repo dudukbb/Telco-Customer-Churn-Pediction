@@ -47,13 +47,15 @@ Here are samples of how I analyzed the dataset, featuring general distributions,
 ---
 
 ### 2. Model Performance Summary Tables & Comparison
-Below are the evaluation metrics tables comparing models before and after feature engineering and hyperparameter optimization:
+Below are the evaluation metrics tables comparing model performance across different stages of the pipeline:
 
-* **Base Models Performance:**
+* **Base Models Performance (Before Feature Engineering):**
   ![Base Models Summary](outputs/metrics/base_models_summary.png)
 
-* **Engineered Models Performance:**
+* **Engineered Models Performance (After Feature Engineering & Encoding):**
+  *(Note: This table reflects model performances after applying my custom feature engineering steps, missing value imputation, and One-Hot Encoding across all baseline algorithms).*
   ![Engineered Models Summary](outputs/metrics/engineered_models_summary.png)
+
 
 #### 🏆 My Model Selection & Results Summary:
 * **Before Feature Engineering (Base Models):** 
