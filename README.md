@@ -12,18 +12,18 @@ Test the application live in your browser: **[Live Streamlit App](https://telco-
 To run the project on your local machine, follow these steps:
 
 ** 1. Clone the repository:
-   ```bash
+   
    git clone [https://github.com/dudukbb/Telco-Customer-Churn-Pediction.git](https://github.com/dudukbb/Telco-Customer-Churn-Pediction.git)
    cd Telco-Customer-Churn-Pediction
 
 ---
 ** 2. Install the required dependencies:
-  ```bash
+  `
   pip install -r requirements.txt
   Launch the Streamlit application:
 
 ** 3. Launch the Streamlit application:
-```bash
+
 streamlit run app.py
 
 
