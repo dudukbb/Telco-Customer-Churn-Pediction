@@ -3,7 +3,7 @@
 This project is an end-to-end Machine Learning web application designed to predict and analyze customer churn in the telecommunications industry. The pipeline covers exploratory data analysis (EDA), feature engineering, hyperparameter optimization, model evaluation, and an interactive web interface.
 
 ## 🌐 Live Demo
-Test the application live in your browser: **[Live Streamlit App](https://telco-customer-churn-pediction-iu2jtdomamlzq8ooyrmrgu.streamlit.app/)**
+Test the application live in your browser: (https://telco-customer-churn-pediction.streamlit.app/)
 
 ---
 
