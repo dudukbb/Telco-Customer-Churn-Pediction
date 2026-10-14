@@ -21,12 +21,14 @@ To run the project on your local machine, follow these steps:
   `
   pip install -r requirements.txt
   Launch the Streamlit application:
+  
+---
 
 ** 3. Launch the Streamlit application:
 
 streamlit run app.py
 
-
+---
 
 End-to-end churn prediction pipeline featuring EDA, feature engineering, and hyperparameter tuning with top ML models."
 
